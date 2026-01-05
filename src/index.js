@@ -7,6 +7,9 @@ import reportWebVitals from './reportWebVitals';
 import  Functioncomponent from './Functioncomponent';
 import State from './State';
 import StateClass from './StateClass';
+import Props from './Props';
+import Props_class from './Props_class';
+import Input_box from './Input_box';
 // import Lern from './lern/Lern';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +20,10 @@ root.render(
     {/* <Lern /> */}
     <State />
     <StateClass />
+
+    <Props name="Patel" />
+    <Props_class name="prince" />
+    <Input_box />
   </React.StrictMode>
 );
 

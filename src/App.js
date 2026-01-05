@@ -18,13 +18,13 @@ function App() {
   }
   return (
     <div className="App">
-     <h1>Hello Word</h1>
+     <h1>React Js</h1>
  
      {/* if we deaclare as a ---__ <button onClick={apple()}>Click me</button>__--- function call auto matically onclick di=ont't work */}
 
-     <button onClick={() => apple()}>Click me</button>  
+     <button onClick={() => apple()}>Click me For alert</button>  
      {/* or  onClick={apple} */}
-    <footer>created by prince patel</footer>
+    {/* <footer>created by prince patel</footer> */}
     </div>
   );
 }

@@ -8,8 +8,8 @@ export default function State() {
 
     return(
         <div>
-            <h1>state</h1>
-            <button onClick={updatedata}>{data}</button>
+            <h1>{data}</h1>
+            <button onClick={updatedata}>update</button>
         </div>
     );
 }
