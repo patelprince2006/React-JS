@@ -10,6 +10,10 @@ import StateClass from './StateClass';
 import Props from './Props';
 import Props_class from './Props_class';
 import Input_box from './Input_box';
+import Hide_show from './Hide_show';
+import Basic_form from './Basic_form';
+import UseEffect from './UseEffect';
+import Array from './Array';
 // import Lern from './lern/Lern';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,12 +22,16 @@ root.render(
   <App />                  {/* or  <App></App> */}
   <Functioncomponent />
     {/* <Lern /> */}
-    <State />
+    {/* <State />
     <StateClass />
 
     <Props name="Patel" />
     <Props_class name="prince" />
     <Input_box />
+    <Hide_show />
+    <Basic_form /> */}
+    {/* <UseEffect /> */}
+    <Array />
   </React.StrictMode>
 );
 
